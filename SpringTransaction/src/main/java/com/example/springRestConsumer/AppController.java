@@ -18,7 +18,7 @@ public class AppController {
 	
 	@Autowired
 	transferService TransferService;
-	
+	//This is a method
 	@GetMapping("/sendMoney/{sid}/{rid}/{amount}")
 	public ResponseEntity<Object> transferMoney(@PathVariable int sid,@PathVariable int rid,@PathVariable int amount){
 		
