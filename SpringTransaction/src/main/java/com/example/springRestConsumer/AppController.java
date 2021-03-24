@@ -15,7 +15,7 @@ import com.example.springRestConsumer.Service.transferService;
 
 @RestController
 public class AppController {
-	
+	//This is Autowiring
 	@Autowired
 	transferService TransferService;
 	//This is a method
